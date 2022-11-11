@@ -3,7 +3,12 @@ This is a repo highlighting the various debugs and ways to fix ios challenges, m
 
 ## Problem: Cannot connect Iphone to Xcode || iphone connecting and disconnecting from mac
 
-###### Top Solution: Head to Settings > General > Reset on your iPhone and tap Reset Location & Privacy. (also Reset Network Settings)
+###### Top Solution: 
+```
+Head to Settings >
+General > 
+Reset on your iPhone and tap Reset Location & Privacy. (also Reset Network Settings)
+```
 
 Troubleshooting:
 plug in your iPhone.
