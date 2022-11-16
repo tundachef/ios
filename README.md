@@ -28,3 +28,12 @@ pod deintegrate
 flutter pub get
 pod install
 ```
+
+##Problem: Could not build module 'Gamekit' || Could not build module 'GameController' || 'GCPhysicalInputElement' is unavailable: not available on iOS
+
+###### Top Solution: 
+This looks like an Apple Issue in the Xcode 14.1 beta. I recommend sticking with Xcode 14.0 until Apple resolves it.
+
+To workaround the issue with the Xcode 14.1 beta, if you're not using the GameCenter Firebase Auth provider, you can remove the file ```FirebaseAuth/Sources/AuthProvider/GameCenter/FIRGameCenterAuthProvider.m``` after installing Firebase and rebuild.
+
+###### Ref: https://github.com/firebase/firebase-ios-sdk/issues/10231#issuecomment-1251146979
