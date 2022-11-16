@@ -40,4 +40,7 @@ To workaround the issue with the Xcode 14.1 beta, if you're not using the GameCe
 
 ## Problem: Invalid Toolchain. Your app was built with an unsupported SDK or version of Xcode.
 
-###### Top Solution: look athis picture
+###### Top Solution: look at this picture
+<picture>
+<img src='/YEPpG.png'>
+</picture>
