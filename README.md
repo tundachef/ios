@@ -29,7 +29,7 @@ flutter pub get
 pod install
 ```
 
-##Problem: Could not build module 'Gamekit' || Could not build module 'GameController' || 'GCPhysicalInputElement' is unavailable: not available on iOS
+## Problem: Could not build module 'Gamekit' || Could not build module 'GameController' || 'GCPhysicalInputElement' is unavailable: not available on iOS
 
 ###### Top Solution: 
 This looks like an Apple Issue in the Xcode 14.1 beta. I recommend sticking with Xcode 14.0 until Apple resolves it.
