@@ -37,3 +37,7 @@ This looks like an Apple Issue in the Xcode 14.1 beta. I recommend sticking with
 To workaround the issue with the Xcode 14.1 beta, if you're not using the GameCenter Firebase Auth provider, you can remove the file ```FirebaseAuth/Sources/AuthProvider/GameCenter/FIRGameCenterAuthProvider.m``` after installing Firebase and rebuild.
 
 ###### Ref: https://github.com/firebase/firebase-ios-sdk/issues/10231#issuecomment-1251146979
+
+## Problem: Invalid Toolchain. Your app was built with an unsupported SDK or version of Xcode.
+
+###### Top Solution: look athis picture
