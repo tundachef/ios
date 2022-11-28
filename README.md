@@ -43,3 +43,12 @@ To workaround the issue with the Xcode 14.1 beta, if you're not using the GameCe
 ###### Top Solution: look at this picture
 ![Unsupported SDK or version of Xcode](/YEPpG.png)
 
+## Problem: CocoaPods could not find compatible versions for pod "Flutter":
+  In Podfile:
+    Flutter (from `Flutter`)
+![Couldn't find compatible versions for pod](/versionscreen.png)
+###### Top Solution: Uncomment this line to define a global platform for your project
+```
+platform :ios, '11.0'
+```
+
